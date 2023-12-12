@@ -1,0 +1,151 @@
+.BannerBlock {
+    margin-top: 85px;
+}
+
+.TextContentInfo__Title {
+    color: #012A4A;
+    font-family: Unbounded;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 41px; /* 128.125% */
+    letter-spacing: 0.96px;
+}
+
+.innerBanner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.TextContentInfo {
+    width: 50%;
+}
+
+.ImageInfo {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.TextContentInfo__Body {
+    width: 75%;
+    color: #34556E;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 125% */
+    letter-spacing: 0.72px;
+    margin-top: 25px;
+}
+
+
+@media screen and (min-width: 0px) {
+    .container__block {
+        max-width: 390px;
+    }
+    .innerBanner {
+        position: relative;
+        display: block;
+    }
+    .ImageInfo {
+        position: absolute;
+        width: 100%;
+    }
+    .TextContentInfo {
+        width: 390px;
+    }
+    .TextContentInfo__Title {
+        color: #012A4A;
+        font-family: Unbounded;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px; /* 127.778% */
+        letter-spacing: 0.54px; 
+    }
+    .TextContentInfo__Body {
+        color: #34556E;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px; /* 140% */
+        letter-spacing: 0.3px; 
+        width: 245px; 
+    }
+    .ImageInfo {
+        position: static;
+        width: 50%;
+    }
+    .ImageInfo img {
+        position: absolute;
+        right: -60px;
+        bottom: -50px;
+        width: 270px;
+    }
+}
+
+@media screen and (min-width: 870px) {
+    .container__block {
+        max-width: 834px; ;
+    }
+    .TextContentInfo {
+        width: max-content;
+    }
+    .ImageInfo {
+        width: 30%;
+    }
+    .ImageInfo img {
+        position: absolute;
+        right: -120px;
+        bottom: -90px;
+        width: 480px;
+    }
+    .TextContentInfo__Body {
+        width: 75%;
+        color: #34556E;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 125% */
+        letter-spacing: 0.72px;
+        font-size: 22px;
+    }
+    .TextContentInfo__Title {
+        color: #012A4A;
+        font-family: Unbounded;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 41px; /* 128.125% */
+        letter-spacing: 0.96px;
+    }    
+    .innerBanner {
+        display: flex;
+    }
+}
+
+
+@media screen and (min-width: 1300px) {
+    .container__block {
+        max-width: 1280px;
+    }
+    .ImageInfo img {
+        position: absolute;
+        right: 0px;
+        top: -70px;
+        width: 650px;
+    }
+    .TextContentInfo {
+        width: 50%;
+    }
+    .ImageInfo {
+        width: 50%;
+    }
+    .TextContentInfo__Body {
+        font-size: 22px;
+    }
+}

@@ -1,0 +1,147 @@
+.Header {
+    width: 100%;
+    height: 35px;
+    margin-top: 50px;
+}
+
+.Logotype__link {
+    color: #012A4A;
+    font-family: Unbounded;
+    font-style: normal;
+    line-height: normal; 
+    text-decoration: none;
+}
+
+.Logotype__content {
+    font-weight: 500;
+    font-size: 32px; 
+}
+
+.Header__Inner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.NavList {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.ItemList {
+    text-decoration: none;
+    color: #012A4A;
+}
+
+.ItemList span {
+    color: #012A4A;
+    font-family: Unbounded;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+.CloseBlock,
+.BugerMenu {
+    position: relative;
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+#m1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 24px;
+    height: 2px;
+    background-color: #012A4A;
+    transition: .2s;
+}
+
+#m2 {
+    position: absolute;
+    left: 10.5px;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 2px;
+    background-color: #012A4A;
+    transition: .2s;
+}
+
+#m3 {
+    position: absolute;
+    left: 10.5px;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 2px;
+    background-color: #012A4A;
+    transition: .2s;
+}
+
+.NavigationsBtns {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+}
+
+
+@media screen and (min-width: 0px) {
+    .container__block {
+        max-width: 834px; ;
+    }
+    .NavList {
+        position: fixed;
+        right: -300px;
+        top: 0;
+        width: 300px;
+        height: 100vh;
+        background: #D2E6FF;
+        z-index: 10000;
+        transition: .2s ease;
+        display: block;
+    }
+    .BugerMenu {
+        display: block;
+    }
+    .CloseBlock {
+        display: block;
+        margin: 20px;
+    }
+    .ItemList {
+        display: block;
+        margin: 30px;
+    }
+}
+
+
+@media screen and (min-width: 1300px) {
+    .container__block {
+        max-width: 1280px;
+    }
+    .NavList {
+        position:static;
+        width: max-content;
+        height: max-content;
+        background: none;
+        z-index: 0;
+    }
+    .BugerMenu {
+        display: none;
+    }
+    .CloseBlock {
+        display: none;
+    }
+    .ItemList {
+        display: inline;
+    }
+}

@@ -1,0 +1,29 @@
+.marquee {
+    margin-top: 120px;
+    width: 100vw;
+    height: 90px;
+    background: #D2E6FF;
+}
+
+.marquee_item {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.marquee_item img {
+    height: 30px;
+}
+
+.marquee_item p {
+    font-family: Unbounded;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.Marquee__block {
+    animation: none;
+}
+  

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Unbounded', sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+:root {
+    /* Dark Theme */
+    --bg: #00192C;
+    --c1: #012A4A;
+    --c2: #013A63;
+    --t1: #34556E;
+    --bg2: #D2E6FF;
+    /* Light Theme */
+    --bg: #FFFFFF;
+    --c1: #012A4A;
+    --c2: #013A63;
+    --t1: #34556E;
+    --bg2: #D2E6FF;
+}

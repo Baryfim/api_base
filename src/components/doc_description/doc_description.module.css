@@ -1,0 +1,33 @@
+.infoDescription__inner {
+    margin-top: 100px;
+}
+
+.infoDescription__inner_title {
+    font-size: 24px;
+    color: #013A63;
+    margin-bottom: 15px;
+}
+
+
+.description {
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.infoDescription__inner_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.label {
+    color: #013A63;
+    font-weight: bold;
+    font-family: 'Unbounded';
+}
+
+.infoDescription__inner_list {
+    color: #013A63;
+}
